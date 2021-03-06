@@ -2,13 +2,12 @@
 
 require('dotenv').config({path: './.env'});
 module.exports = {
-
   development: {
     client: 'pg',
     connection: {
       database: process.env.DATABASE_URL,
-      username: DB_PASSWORD,
-      password: DB_USERNAME,
+      username: process.env.DB_USERNAME,
+      password: process.env.DB_PASSWORD,
     },
     production: {
       client: 'pg',
