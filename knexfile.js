@@ -9,5 +9,5 @@ module.exports = {
       tableName:"migrations",
       directory:"./db/migrations"
     },
-    ssl: true 
+    // ssl: true 
 }
