@@ -1,6 +1,5 @@
 const express = require('express');
 const { reset } = require('nodemon');
-const { count } = require('../db/client');
 const knex = require('../db/client');
 const router = express.Router();
 
