@@ -12,7 +12,10 @@ module.exports = {
     },
     ssl: {
       rejectUnauthorized: false
-    } 
+    },
+    tls: {
+      rejectUnauthorized: false
+    }
   },
   staging: {
     client: 'pg',
